@@ -136,6 +136,13 @@ export default function App(){
             >
               <i>Let's create the future together</i>
             </Button>
+            <Button
+              colorScheme="brand"
+              textTransform="uppercase"
+              class="px-2 py-1 mt-2 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
+            >
+              <b> </b>
+            </Button>
           </Stack>
         </Flex>
       </Box>
