@@ -26,7 +26,7 @@ export default function App(){
             <Flex alignItems="center" justifyContent="space-between">
               <Box fontSize="xl" fontWeight="semibold" color="gray.700">
                 <chakra.a
-                  fontSize={["xl", , "2xl"]}
+                  fontSize={["l", , "s"]}
                   fontWeight="bold"
                   color={useColorModeValue("gray.800", "white")}
                   _hover={{
@@ -34,7 +34,7 @@ export default function App(){
                   }}
                   
                 >
-                  JTS
+                  ©2021
                 </chakra.a>
               </Box>
 
@@ -94,7 +94,7 @@ export default function App(){
                 _hover={{ color: useColorModeValue("brand.400", "blue.400") }}
                 
               >
-                Contact
+               Design
               </chakra.a>
             </Box>
           </Box>
@@ -104,7 +104,7 @@ export default function App(){
       <Box
         w="full"
         h="container.sm"
-        backgroundImage="url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"
+        backgroundImage="url(https://i.ibb.co/QvyRQxR/hero2.png)"
         bgPos="center"
         bgSize="cover"
       >
@@ -134,7 +134,7 @@ export default function App(){
               w="fit-content"
               class="px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
             >
-              <i>Let's create the future together</i>
+              <i>Let's create the future together • jstrom@berklee.edu • [513]-581-1204</i>
             </Button>
           </Stack>
         </Flex>
