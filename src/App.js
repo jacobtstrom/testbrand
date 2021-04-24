@@ -34,7 +34,7 @@ export default function App(){
                   }}
                   
                 >
-                  Brand
+                  JTS
                 </chakra.a>
               </Box>
 
@@ -58,7 +58,7 @@ export default function App(){
                 _hover={{ color: useColorModeValue("brand.400", "blue.400") }}
                 
               >
-                Web developers
+                Record Industry
               </chakra.a>
               <chakra.a
                 display="block"
@@ -70,7 +70,7 @@ export default function App(){
                 _hover={{ color: useColorModeValue("brand.400", "blue.400") }}
                 
               >
-                Web Designers
+                Teaching
               </chakra.a>
               <chakra.a
                 display="block"
@@ -82,7 +82,7 @@ export default function App(){
                 _hover={{ color: useColorModeValue("brand.400", "blue.400") }}
                 
               >
-                UI/UX Designers
+                Artistry
               </chakra.a>
               <chakra.a
                 display="block"
@@ -121,11 +121,12 @@ export default function App(){
               fontWeight="semibold"
               color="white"
               textTransform="uppercase"
+              _hover={{
+                color: useColorModeValue("gray.700", "gray.300"),
+              }}
             >
-              Build Your new{" "}
-              <chakra.span color="blue.400" textDecor="underline">
-                Saas
-              </chakra.span>
+              Jacob Thomas Strom
+             
             </Heading>
             <Button
               colorScheme="brand"
@@ -133,7 +134,7 @@ export default function App(){
               w="fit-content"
               class="px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
             >
-              Start project
+              <i>Let's create the future together</i>
             </Button>
           </Stack>
         </Flex>
